@@ -2,6 +2,7 @@ function Hero (name, hp, weapon) {
     this.name = name;
     this.hp = hp;
     this.weapon = weapon;
+    this.enemyHp = 350;
     this.eat = function () {
         hp = hp + 10;
     }
@@ -17,6 +18,7 @@ function Troll (name, hp, weapon) {
     this.name = name;
     this.hp = hp;
     this.weapon = weapon;
+    this.enemyHp = 300;
     this.eat = function () {
         hp = hp + 10;
     }
